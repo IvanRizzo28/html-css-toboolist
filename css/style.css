@@ -10,14 +10,38 @@
 
 :root{
     --bg-color: #F6F8F9;
-    --button-color-1: #C8CED3;
-    --button-color-2: #47ADF1;
+    --button-color-2: #C8CED3;
+    --button-color-1: #47ADF1;
     --tags-color-1: #45ABEA;
     --tags-color-2: #9C72E4;
     --tags-color-3: #65C1AA;
     --tags-color-4: #F29E33;
     --tags-color-5: #D863A1;
     --tags-color-6: #B0C926;
+}
+
+.bg-blu{
+    background-color: var(--tags-color-1);
+}
+
+.bg-viola{
+    background-color: var(--tags-color-2);
+}
+
+.bg-verde{
+    background-color: var(--tags-color-3);
+}
+
+.bg-arancione{
+    background-color: var(--tags-color-4);
+}
+
+.bg-rosa{
+    background-color: var(--tags-color-5);
+}
+
+.bg-giallo{
+    background-color: var(--tags-color-6);
 }
 
 /*--------------------------------------------*/
@@ -45,3 +69,106 @@ header{
 }
 
 /*----------------Fine Header----------------*/
+
+/*----------------Main----------------*/
+
+main{
+    width: 100%;
+    background-color: var(--bg-color);
+    padding: 30px 0;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    /*padding: 30px 50px;*/
+}
+
+.bottoni{
+    border-bottom: 1px solid var(--button-color-2);
+    padding: 15px 50px;
+}
+
+button{
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.bg-button1{
+    background-color: var(--button-color-1);
+    color: white;
+}
+
+.bg-button2{
+    color: var(--button-color-2);
+    background-color: white;
+    border: 1px solid var(--button-color-2);
+}
+
+.contenuto{
+    width: 100%;
+    padding: 15px 50px;
+}
+
+/* section */
+
+section{
+    margin-bottom: 30px;
+}
+
+section h2{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+.check::before{
+    content: '\2713';
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    color: green;
+    border: 1px solid green;
+}
+
+.cross::before{
+    content: '\2613';
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    color: red;
+    border: 1px solid red;
+}
+
+.avviso{
+    display: inline-block;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 15px;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+/* fine section */
+
+/*----------------Fine Main----------------*/
