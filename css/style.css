@@ -1,0 +1,47 @@
+/*----------------Reset----------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*----------------Variabili----------------*/
+
+:root{
+    --bg-color: #F6F8F9;
+    --button-color-1: #C8CED3;
+    --button-color-2: #47ADF1;
+    --tags-color-1: #45ABEA;
+    --tags-color-2: #9C72E4;
+    --tags-color-3: #65C1AA;
+    --tags-color-4: #F29E33;
+    --tags-color-5: #D863A1;
+    --tags-color-6: #B0C926;
+}
+
+/*--------------------------------------------*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*----------------Header----------------*/
+
+header{
+    padding: 10px 20px;
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+.titolo{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/*----------------Fine Header----------------*/
